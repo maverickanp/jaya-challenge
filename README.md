@@ -94,6 +94,54 @@ http://localhost:3030/users/
 ]
 ```
 
+# json to create a new conversion POST
+
+http://localhost:3030/conversion/
+
+```
+{
+	"user": "12d0d3b0-ebf2-11ea-a9de-dd9a7e5dab95",
+	"baseCurrency": "BRL",
+	"baseValue": 200,
+	"targetCurrency": "USD"
+}
+```
+* response
+
+```
+{
+    "id": "4132e950-ebf2-11ea-a9de-dd9a7e5dab95",
+    "user": "12d0d3b0-ebf2-11ea-a9de-dd9a7e5dab95",
+    "baseCurrency": "BRL",
+    "baseValue": 200,
+    "targetCurrency": "USD",
+    "exchangeRate": 0.1844328766,
+    "targetValue": 36.88657532,
+    "time": "2020-09-01T01:27:09.669Z"
+}
+```
+
+# json to list all conversions by user GET
+
+http://localhost:3030/conversions/12d0d3b0-ebf2-11ea-a9de-dd9a7e5dab95
+
+* response
+
+```
+[
+    {
+        "id": "4132e950-ebf2-11ea-a9de-dd9a7e5dab95",
+        "user": "12d0d3b0-ebf2-11ea-a9de-dd9a7e5dab95",
+        "baseCurrency": "BRL",
+        "baseValue": 200,
+        "targetCurrency": "USD",
+        "exchangeRate": 0.1844328766,
+        "createdAt": "2020-09-01T01:27:09.669Z",
+        "updatedAt": "2020-09-01T01:27:09.669Z"
+    }
+]
+```
+
 * * Check if you have .env on your project
 
 ```
