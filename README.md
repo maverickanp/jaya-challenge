@@ -54,25 +54,29 @@ https://api.exchangeratesapi.io/ endpoint
 # json to list all users POST
 http://localhost:3030/user/
 
-```{
+```
+{
 "name": "Artur Pedrosa"
-}```
+}
+```
+* response
 
-returns
-
-```{
+```
+{
     "id": "163a3d70-ebf2-11ea-a9de-dd9a7e5dab95",
     "name": "Artur Pedrosa",
     "updatedAt": "2020-09-01T01:25:57.575Z",
     "createdAt": "2020-09-01T01:25:57.575Z"
-}```
+}
+```
 
 # json to create a new user GET
 http://localhost:3030/users/
 
-returns
+* response
 
-```[
+```
+[
     {
         "id": "12d0d3b0-ebf2-11ea-a9de-dd9a7e5dab95",
         "name": "Artur Pedrosa",
@@ -85,13 +89,15 @@ returns
         "createdAt": "2020-09-01T01:25:57.575Z",
         "updatedAt": "2020-09-01T01:25:57.575Z"
     }
-]```
+]
+```
 
+* * Check if you have .env on your project
 
-**Check if you have .env on your project
-
-```PORT=3030
-EXCHANGE_PUB_ENDPOINT=https://api.exchangeratesapi.io/```
+```
+PORT=3030
+EXCHANGE_PUB_ENDPOINT=https://api.exchangeratesapi.io/
+```
 
 ## Commands 🚀
 
