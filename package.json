@@ -1,7 +1,7 @@
 {
   "name": "jaya-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Exchenge Rate Project running with an embedded sqlite database, using sequelize as an orm",
   "scripts": {
     "test": "jest",
     "test:staged": "jest",
