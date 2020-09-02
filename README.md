@@ -51,6 +51,48 @@ https://api.exchangeratesapi.io/ endpoint
 ```https://api.exchangeratesapi.io/latest?base=USD```
 
 
+# json to list all users POST
+http://localhost:3030/user/
+
+```{
+"name": "Artur Pedrosa"
+}```
+
+returns
+
+```{
+    "id": "163a3d70-ebf2-11ea-a9de-dd9a7e5dab95",
+    "name": "Artur Pedrosa",
+    "updatedAt": "2020-09-01T01:25:57.575Z",
+    "createdAt": "2020-09-01T01:25:57.575Z"
+}```
+
+# json to create a new user GET
+http://localhost:3030/users/
+
+returns
+
+```[
+    {
+        "id": "12d0d3b0-ebf2-11ea-a9de-dd9a7e5dab95",
+        "name": "Artur Pedrosa",
+        "createdAt": "2020-09-01T01:25:51.852Z",
+        "updatedAt": "2020-09-01T01:25:51.852Z"
+    },
+    {
+        "id": "163a3d70-ebf2-11ea-a9de-dd9a7e5dab95",
+        "name": "any_name",
+        "createdAt": "2020-09-01T01:25:57.575Z",
+        "updatedAt": "2020-09-01T01:25:57.575Z"
+    }
+]```
+
+
+**Check if you have .env on your project
+
+```PORT=3030
+EXCHANGE_PUB_ENDPOINT=https://api.exchangeratesapi.io/```
+
 ## Commands 🚀
 
 ```npm start dev : send command "npx ts-node src/server.ts" -> Start the server with microservices```
