@@ -47,8 +47,8 @@ ExchangeRateClient -> getRates
 responsible for fetching all rates when passing a base currency on query param on 
 https://api.exchangeratesapi.io/ endpoint
 
-```usage : 
-https://api.exchangeratesapi.io/latest?base=USD```
+* usage : 
+```https://api.exchangeratesapi.io/latest?base=USD```
 
 
 ## Commands 🚀
