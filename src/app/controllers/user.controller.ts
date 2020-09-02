@@ -8,7 +8,7 @@ export class UserController {
       .catch((err: Error) => res.status(500).json(err))
   }
 
-  public create (req: Request): Response {
+  public create (req: Request, res: Response): void {
     const params: IUser = req.body
 
     User.create<User>(params)
