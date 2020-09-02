@@ -51,7 +51,8 @@ https://api.exchangeratesapi.io/ endpoint
 ```https://api.exchangeratesapi.io/latest?base=USD```
 
 
-# json to list all users POST
+# json to create a new user GET
+
 http://localhost:3030/user/
 
 ```
@@ -70,7 +71,8 @@ http://localhost:3030/user/
 }
 ```
 
-# json to create a new user GET
+# json to list all users POST
+
 http://localhost:3030/users/
 
 * response
