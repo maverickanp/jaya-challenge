@@ -7,3 +7,9 @@
               ** list all conversions using an existing user as criteria
 * Technologies:   
 * A Simple MVC Project
+
+
+## Commands 🚀
+
+```npm start dev : send command "npx ts-node src/server.ts" -> Start the server with microservices```
+
