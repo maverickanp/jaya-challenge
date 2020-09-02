@@ -142,7 +142,8 @@ http://localhost:3030/conversions/12d0d3b0-ebf2-11ea-a9de-dd9a7e5dab95
 ]
 ```
 
-* * Check if you have .env on your project
+
+* Check if you have .env on your project
 
 ```
 PORT=3030
