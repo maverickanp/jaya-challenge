@@ -44,7 +44,7 @@ and passing userId to where clause to filter a especific user recorded on databa
 # exchange rate client api
 ExchangeRateClient -> getRates
 
-responsible for fetching all rates when passing a base currency on query param on 
+responsible for fetching all rates when passing a base currency on query param to 
 https://api.exchangeratesapi.io/ endpoint
 
 * usage : 
@@ -54,6 +54,8 @@ https://api.exchangeratesapi.io/ endpoint
 # json to create a new user GET
 
 http://localhost:3030/user/
+
+* input
 
 ```
 {
@@ -97,6 +99,8 @@ http://localhost:3030/users/
 # json to create a new conversion POST
 
 http://localhost:3030/conversion/
+
+* input
 
 ```
 {
