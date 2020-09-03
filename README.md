@@ -1,3 +1,5 @@
+https://www.code-inspector.com/project/13081/score/svg
+https://www.code-inspector.com/project/13081/status/svg
 # jaya-challenge - Exchange Rate
 Project: An API to convert rates beetwen differents currencies
 
