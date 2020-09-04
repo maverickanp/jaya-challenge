@@ -6,7 +6,8 @@
     "test": "jest",
     "test:staged": "jest",
     "dev": "npx ts-node src/server.ts",
-    "start": "npx ts-node src/server.ts"
+    "start": "npx ts-node src/server.ts",
+    "build": "tsc"
   },
   "keywords": [
     "Coin converter, Jaya"
