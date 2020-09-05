@@ -158,3 +158,8 @@ EXCHANGE_PUB_ENDPOINT=https://api.exchangeratesapi.io/
 
 ```npm start dev : send command "npx ts-node src/server.ts" -> Start the server with microservices```
 
+## Deploy
+
+* You can check the application live, deployed on Heroku
+
+```https://jaya-challenge.herokuapp.com/```
