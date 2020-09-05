@@ -5,9 +5,14 @@
   "scripts": {
     "test": "jest",
     "test:staged": "jest",
+<<<<<<< HEAD
     "dev": "tsnd  --transpile-only --ignore-watch node_modules --respawn src/server.ts",
     "start": "node dist/src/server.js",
     "build": "tsc"
+=======
+    "dev": "npx ts-node src/server.ts",
+    "start": "npx ts-node src/server.ts"
+>>>>>>> d9462a6cd4e22e57693d14bb3d167f33f0be7273
   },
   "keywords": [
     "Coin converter, Jaya"
